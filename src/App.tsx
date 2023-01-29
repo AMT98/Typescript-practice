@@ -5,6 +5,7 @@ import { Status } from "./components/Status";
 import { Greet } from "./components/Greet";
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
+import { LoggedIn } from "./components/state/LoggedIn";
 // import { Person } from "./components/Person";
 // import { PersonList } from "./components/PersonList";
 
@@ -47,6 +48,7 @@ function App() {
       value=''
       handleChange={(event) => console.log(event) }
       />
+      <LoggedIn />
     </div>
   );
 }
